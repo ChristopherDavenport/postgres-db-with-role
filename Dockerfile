@@ -1,2 +1,2 @@
-FROM postgres:10
+FROM postgres:12
 COPY create-postgresql-db-with-role.sh /docker-entrypoint-initdb.d/
